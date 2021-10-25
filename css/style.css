@@ -17,6 +17,7 @@ h1{
   height: 80px;
   background-color: cornflowerblue;
   margin: 5px;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;

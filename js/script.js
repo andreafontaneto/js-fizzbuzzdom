@@ -18,7 +18,7 @@ const row = document.querySelector('.row'); // richiamo tramite costante l'eleme
 // definisco il ciclo FOR
 
 // INIZIO CICLO FOR
-for(i = 0; i < 100; i++){
+for(i = 1; i <= 100; i++){
 
   const divBox = document.createElement('div'); // creo l'elemento div tramite costante divBox
 

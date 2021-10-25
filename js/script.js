@@ -12,3 +12,24 @@
       f) definire se il valore creato è divisibile per 5 tramite modulo % quindi aggiungere la classe .buzz
       g) se il valore creato è divisibile sia per 3 che per 5 tramite %, aggiungere la classe.fizzbuzz
 */
+
+const row = document.querySelector('.row'); // richiamo tramite costante l'elemento con classe .row
+
+// definisco il ciclo FOR
+
+// INIZIO CICLO FOR
+for(i = 0; i < 100; i++){
+
+  const divBox = document.createElement('div'); // creo l'elemento div tramite costante divBox
+
+  divBox.className = 'box'; // assegno la classe .box al nuovo elemento creato
+  divBox.innerHTML = i; // gli dico che all'interno deve esserci il valore di incremento "i"
+
+  console.log(i); // i è stata creata ma non stampata nell'html
+
+  row.append(divBox); // l'elemento div creato con costante divBox è stato "appeso" all'interno di row
+
+
+
+}
+// FINE CICLO FOR

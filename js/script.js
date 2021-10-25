@@ -29,7 +29,33 @@ for(i = 0; i < 100; i++){
 
   row.append(divBox); // l'elemento div creato con costante divBox è stato "appeso" all'interno di row
 
+  // definisco se sono multipli di 3, di 5 o di entrambi
+  if(!(i % 3) && !(i % 5)){
+    divBox.classList.add('fizzbuzz')
+    divBox.innerHTML = 
+    `
+    ${i}<br>
+    fizzbuzz
+    `;
+  }
 
+  if(!(i % 3)){
+    divBox.classList.add('fizz')
+    divBox.innerHTML = 
+    `
+    ${i}<br>
+    fizz
+    `;
+  }
+
+  if(!(i % 5)){
+    divBox.classList.add('buzz')
+    divBox.innerHTML = 
+    `
+    ${i}<br>
+    buzz
+    `;
+  }
 
 }
 // FINE CICLO FOR

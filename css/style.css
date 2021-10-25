@@ -3,3 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: #0D2D3A;
+}
+
+h1{
+  color: white;
+}
+
+.box{
+  width: 80px;
+  height: 80px;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
